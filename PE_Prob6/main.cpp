@@ -29,7 +29,8 @@ int main() {
     // Find the square of the sum
     squareOfSum = (squareOfSum * squareOfSum);
 
-    cout << "The difference between the sum of the squares and the square of the sum is: " << endl << squareOfSum - sumOfSquares << endl << endl;
+    cout << "The difference between the sum of the squares and the square of the sum is: " << endl
+         << squareOfSum - sumOfSquares << endl << endl;
 
     return 0;
 }
